@@ -3,7 +3,7 @@
   top: 0;
   left: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.60);
+  background-color: rgba(0, 0, 0, 0.6);
   z-index: 999999;
   width: 0;
   width: 100%;
@@ -12,14 +12,13 @@
   opacity: 0;
   visibility: hidden;
 
-
   // Mobile Menu Logo
   .mobile-logo {
     padding-bottom: 30px;
     padding-top: 40px;
     display: block;
     text-align: center;
-    background-color: rgba(#1CB9C8, 0.1);
+    background-color: rgba(#1cb9c8, 0.1);
 
     svg {
       max-width: 185px;
@@ -76,7 +75,6 @@
   }
 }
 
-
 // Mobile Menu
 .th-mobile-menu {
   overflow-y: scroll;
@@ -108,7 +106,7 @@
         padding-left: 18px;
 
         &:before {
-          content: '\f105';
+          content: "\f105";
           font-family: $icon-font;
           position: absolute;
           left: 0;
@@ -119,7 +117,7 @@
       }
 
       &.th-active {
-        >a {
+        > a {
           color: $theme-color;
 
           &:before {
@@ -140,7 +138,7 @@
     }
 
     .th-item-has-children {
-      >a {
+      > a {
         .th-mean-expand {
           position: absolute;
           right: 0;
@@ -159,7 +157,7 @@
           border-radius: 50%;
 
           &:before {
-            content: '\f067';
+            content: "\f067";
             font-family: $icon-font;
           }
         }
@@ -179,9 +177,9 @@
       }
 
       &.th-active {
-        >a {
+        > a {
           .th-mean-expand:before {
-            content: '\f068';
+            content: "\f068";
           }
           &:after {
             content: "\f068";
@@ -191,18 +189,16 @@
     }
   }
 
-  >ul {
+  > ul {
     padding: 0 40px;
 
-    >li {
+    > li {
       &:last-child {
         border-bottom: none;
       }
     }
   }
 }
-
-
 
 .th-menu-toggle {
   width: 50px;
@@ -236,14 +232,13 @@
   }
 }
 
-
 @media (max-width: 400px) {
   .th-menu-wrapper .th-menu-area {
     width: 100%;
     max-width: 270px;
   }
 
-  .th-mobile-menu>ul {
+  .th-mobile-menu > ul {
     padding: 0 20px;
   }
 }

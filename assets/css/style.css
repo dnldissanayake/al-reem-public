@@ -80,9 +80,9 @@ Version: 1.0.0
 /*------------------- 1.3. Variable-------------------*/
 :root {
   --theme-color: #bf0000;
-  --theme-color2: #ff9d2d;
+  --theme-color2: #ffbc00;
   --title-color: #010f1c;
-  --body-color: #4d5765;
+  --body-color: #000000;
   --smoke-color: rgba(1, 15, 28, 0.06);
   --smoke-color2: #f9f6f1;
   --black-color: #000000;
@@ -1193,7 +1193,7 @@ textarea.is-invalid {
   width: 100%;
   max-width: 310px;
   background-color: #fff;
-  border-right: 3px solid var(--theme-color);
+  border-right: 3px solid #ffbc00;
   height: 100%;
   position: relative;
   left: -110%;
@@ -1229,7 +1229,7 @@ textarea.is-invalid {
 }
 
 .th-mobile-menu ul li {
-  border-bottom: 1px solid #fdedf1;
+  border-bottom: 1px solid #ffbc00;
   list-style-type: none;
 }
 
