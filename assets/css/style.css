@@ -9728,6 +9728,12 @@ span.select2-selection.select2-selection--single:focus {
   margin-bottom: 0;
 }
 
+@media (max-width: 575px) {
+  .about-counter1 .counter-title {
+    font-size: 36px;
+  }
+}
+
 .about-counter1 .counter-info {
   margin-bottom: -0.3em;
   text-transform: uppercase;
@@ -9740,6 +9746,15 @@ span.select2-selection.select2-selection--single:focus {
   margin-bottom: 0;
   font-weight: 600;
   text-transform: uppercase;
+}
+
+@media (max-width: 575px) {
+  .about-counter1 .counter-text {
+    font-size: 12px;
+  }
+  .about-counter1 .counter-info {
+    font-size: 10px;
+  }
 }
 
 .btn-wrap.style1 {
